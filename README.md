@@ -32,14 +32,9 @@ Each configuration is scored on:
 
 The key result is that **viewing guardrails as hyperparameters** lets us use standard hyperparameter optimization (HPO) tools to quickly rediscover strong safety configurations with **far fewer evaluations and much less time** than an exhaustive grid search.
 
----
+## Paper
 
-## Repository structure
+The full write-up is available in:
 
-```text
-.
-├─ notebooks/
-│  ├─ 01_grid_search_guardrails.ipynb
-│  └─ 02_optuna_search_guardrails.ipynb
-├─ requirements.txt
-└─ README.md
+- `paper/autotuning_llm_safety_guardrails.pdf`
+- arXiv preprint (link and ID forthcoming).
